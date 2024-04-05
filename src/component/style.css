@@ -1,0 +1,343 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* font-family: Montserrat; */
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Just+Me+Again+Down+Here&family=Lato:wght@900&family=Montserrat:wght@500&family=PT+Sans:ital,wght@0,400;1,700&family=Roboto:wght@100&display=swap');
+body{
+  background-color: white;
+  /* font-family: 'Girassol', serif; */
+  /* font-family: 'Just Me Again Down Here', cursive; */
+  /* font-family: 'Lato', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+font-size:x-large;
+font-style:inherit;
+}
+.nvbr{
+  background-color: rgb(255, 255, 255);
+}
+.me-auto{
+  padding-left: 90px;
+}
+.heading{
+  margin-left: 2px;
+  color: rgb(0, 0, 0);
+  font-size:20px;
+}
+.heading2{
+  margin-top: 10%;
+  color: rgb(0, 0, 0);
+  font-size:20px;
+}
+.heading:hover{
+  color:dodgerblue ;
+}
+.heading2:hover{
+  color:dodgerblue ;
+}
+#collapsible-nav-dropdown{
+  color: black;
+}
+#collapsible-nav-dropdown:hover{
+  color:dodgerblue ;
+}
+/* Slider.css */
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.fullscreen-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* .vision-para{
+ color: black;
+ font-family: 'Trebuchet MS', sans-serif;
+ font-size: larger;
+ font-weight: 600;
+} */
+/* .v-image:hover {
+  transform: scale(1.1); 
+}
+.v-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+} */
+.image-container {
+  position: relative;
+  overflow: hidden; 
+}
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* background-color: rgba(255, 255, 255, 0.8);  */
+  padding: 10px; 
+  width: 80%; 
+  color: #000;
+  font-weight: 900;
+  /* text-decoration: underline; */
+}
+.footer{
+  background-color: black;
+  color: white;
+}
+/* about-container-css-start */
+.about-container{
+  margin: auto;
+  padding: 0%;
+  overflow: hidden;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+/* #grad1 {
+  
+  background-color:rgb(104, 196, 202) ; 
+  background-image: linear-gradient( rgb(237, 240, 240),rgb(196, 206, 206));
+} */
+/* .line{
+  border-right: 6px double  rgb(2, 13, 25); 
+   height: 45vh;
+} */
+.vl {
+  border-right: 6px double  rgb(211, 229, 248); 
+   border-bottom: 6px double  rgb(211, 229, 248); 
+}
+#vll {
+  border-left: 6px double rgb(211, 229, 248);
+  border-bottom: 6px double  rgb(211, 229, 248);
+}
+.choose-image{
+  margin: 0%;
+  padding: 0%;
+}
+.cart-about {
+  border: none;
+  /* box-shadow: 13px  13px 20px #cbced1; */
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
+  text-decoration:solid;
+  background-color: white;
+}
+/* For mobile phones: */
+/* [class*="col-"] {
+  width: 100%;
+} */
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .media-q{
+    width: 100%;
+    margin-top: 2%;
+    /* .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;} */
+  }
+}
+@media only screen and (min-width: 995px) {
+  /* For desktop: */
+  /* .make-fluid{ */
+    /* width: 100%; */
+    /* margin-top: 2%; */
+    /* .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;} */
+  /* } */
+}
+@media only screen and (max-width:600px)
+{
+  .crosel-media{
+    width: 100%;
+    size: 400px;
+    overflow-x: hidden;
+  }
+}
+/* LargeFooter.css */
+
+.footer-header{
+  background-color: #ffffff;
+  color:  rgb(0, 0, 0);
+
+}
+.large-footer {
+  background-color:white;
+  color: black;
+  padding: 40px 0;
+}
+
+.footer-column ul li {
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-column ul li a {
+  color: #000000;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+}
+.footer-column ul li a:hover{
+  background-color:rgb(171, 239, 244) ;
+
+  transition: 0.3s ease-in-out ;
+
+}
+.footer-column h4 {
+  font-size: 20px;
+}
+
+.footer-column p {
+  font-size: 14px;
+}
+
+.social-icons {
+  font-size: 24px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.social-icons ul li a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer-icon ul li{
+  color: #272525;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+}
+.footer-icon ul li a:hover {
+  background-color: rgb(84, 163, 169);
+border-radius: 50%;
+padding: 20px;
+transition: 0.3s ease-in-out ;
+}
+
+.btnfooter {
+  background-color: rgb(9, 91, 97);
+  box-shadow: inset;
+  color: white;
+  border-radius: 30px;
+  font-size: small;
+  padding: 2.5% 5%;
+  margin-left: 3%;
+  border: none;
+  margin-top: 10%;
+}
+.btnfooter:hover {
+  background-color: #0d788a;
+  transition: 0.3s ease-in-out ;
+}
+.btnText {
+  background-color: #070822;
+  box-shadow: inset;
+  color: white;
+  border-radius: 30px;
+  font-size: small;
+  padding: 2.5% 5%;
+  display: flex;
+
+}
+/* contact-us-css */
+.address-css{
+background-color: rgb(23, 114, 250);
+color: white;
+}
+.contacttt-css{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form-div {
+  max-width: 70vw;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  background-color: #fff;
+}
+.form-heading{
+  text-align: center;
+  /* color: rgb(23, 114, 250); */
+  font-weight: 900;
+}
+/* Style for form elements */
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: rgb(18, 18, 18);
+}
+input[type="text"],
+input[type="email"],
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  /* color: #034651; */
+  /* border-color: rgb(32, 32, 32); */
+}
+input{
+  border-color: #034651;
+}
+button[type="submit"] {
+  background-color: rgb(23, 114, 250);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button[type="submit"]:hover {
+  background-color: rgb(8, 57, 130);
+  transition: 0.3s ease-in-out;
+}
+/* Error message styling */
+.error-message {
+  color: #d9534f;
+  font-size: 14px;
+  /* margin-top: -10px; */
+  /* margin-bottom: 10px; */
+}
+/* Success message styling */
+.success-message {
+  color: #5bc0de;
+  font-size: 18px;
+  text-align: center;
+  /* margin-top: 10px; */
+}
